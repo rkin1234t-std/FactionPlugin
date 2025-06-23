@@ -1,0 +1,24 @@
+    name: FactionsPlugin
+version: '1.0'
+main: com.example.factionsplugin.FactionsPlugin
+api-version: '1.18'
+description: Плагин для создания и управления фракциями
+commands:
+  faction:
+    description: Основная команда для управления фракциями
+    aliases: [f]
+    usage: /<command> [подкоманда] [аргументы]
+permissions:
+  factions.admin:
+    description: Доступ к административным командам
+    default: op
+  factions.admin.create:
+    description: Разрешение на создание фракций
+    default: op
+  factions.admin.delete:
+    description: Разрешение на удаление фракций
+    default: op
+  factions.admin.setleader:
+    description: Разрешение на назначение лидера фракции
+    default: op
+    
